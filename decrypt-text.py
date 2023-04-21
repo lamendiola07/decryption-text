@@ -14,6 +14,18 @@ third_colour = 'yellow'
 fourth_colour = 'red'
 fifth_colour = 'green'
 
+
+#Adding banners for more visuals
+
+print("..••°°°°••..°°••....••°°..••°°°°••..°°••....••°°..••°°°°••..°°••....••°°..••°°°°••..°°••....••°°..••°°°°••..°°••....••°°..••°°°°••..°°••....••°°..••°°°°••..°°••....••°°")
+cprint(figlet_format('INITIALIZING'), first_colour)
+cprint(figlet_format('I N . . . 3'), second_colour)
+cprint(figlet_format('. . 2'), third_colour)
+cprint(figlet_format('1'), fourth_colour)
+cprint(figlet_format('S T A R T !'), fifth_colour)
+print("..••°°°°••..°°••....••°°..••°°°°••..°°••....••°°..••°°°°••..°°••....••°°..••°°°°••..°°••....••°°..••°°°°••..°°••....••°°..••°°°°••..°°••....••°°..••°°°°••..°°••....••°°")
+
+
 # Given encrypted text to decrypt
 output_encrypt = "th& q!#ck br+wn f+x j!mps +v&r th& l*zy d+g"
 
